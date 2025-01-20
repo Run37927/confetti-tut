@@ -111,10 +111,10 @@ export const authOptions = {
             return true;
         },
         redirect({ url, baseUrl }) {
-            console.log("redirect callback triggered:", {
-                url,
-                baseUrl
-            })
+            // console.log("redirect callback triggered:", {
+            //     url,
+            //     baseUrl
+            // })
             return "/";
         }
     }
